@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: palegoldenrod;
+}
+
+input, button{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 1px solid #2d9fd9;
+    color: black;
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: white;
+}
+    
+input:focus {
+    outline: none;
+    border: 1px solid #a0d18c;
+    color: #2d9fd9;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+textarea{
+    padding: 1px 5px;
+    font-size: 15px;
+    background: url(note.png) repeat;
+}
